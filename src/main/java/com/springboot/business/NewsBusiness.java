@@ -5,29 +5,29 @@ import java.util.Optional;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
+
 import com.springboot.entities.News;
-import com.springboot.repo.NewsRepo;
+import com.springboot.repo.NewsRepository;
 
 @Service
-//
+@Transactional
 public class NewsBusiness implements NewsBusinessInterface {
-	private  NewsRepo NewsRepos;
 	@Autowired
-	public NewsBusiness(NewsRepo repos) {
+	private  NewsRepository NewsRepos;
+	public NewsBusiness(NewsRepository repos) {
 		this.NewsRepos = repos;
 	}
 	
 	
-	//@Override
 	public List<News> getAll() {
 		
 	return (List<News>) NewsRepos.GetALL();
 	
 	}
-	public Optional<News> getById(Integer x) {
-		// TODO Auto-generated method stub
-		
-		
-		return  NewsRepos.findById(x);
-	}
+
+
+
+	
 }
+

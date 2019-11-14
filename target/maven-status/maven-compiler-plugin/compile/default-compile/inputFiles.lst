@@ -1,6 +1,7 @@
 /Users/karim/Documents/workspace-spring-tool-suite-4-4.0.1.RELEASE/com.springboot.projet/src/main/java/com/springboot/entities/Match.java
 /Users/karim/Documents/workspace-spring-tool-suite-4-4.0.1.RELEASE/com.springboot.projet/src/main/java/com/springboot/projet/MainApplication.java
+/Users/karim/Documents/workspace-spring-tool-suite-4-4.0.1.RELEASE/com.springboot.projet/src/main/java/com/springboot/repo/NewsRepository.java
 /Users/karim/Documents/workspace-spring-tool-suite-4-4.0.1.RELEASE/com.springboot.projet/src/main/java/com/springboot/business/NewsBusiness.java
 /Users/karim/Documents/workspace-spring-tool-suite-4-4.0.1.RELEASE/com.springboot.projet/src/main/java/com/springboot/Controllers/NewsController.java
-/Users/karim/Documents/workspace-spring-tool-suite-4-4.0.1.RELEASE/com.springboot.projet/src/main/java/com/springboot/repo/NewsRepo.java
+/Users/karim/Documents/workspace-spring-tool-suite-4-4.0.1.RELEASE/com.springboot.projet/src/main/java/com/springboot/business/NewsBusinessInterface.java
 /Users/karim/Documents/workspace-spring-tool-suite-4-4.0.1.RELEASE/com.springboot.projet/src/main/java/com/springboot/entities/News.java
